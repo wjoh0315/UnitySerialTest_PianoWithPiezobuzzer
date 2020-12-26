@@ -61,7 +61,7 @@ Enjoy!
 ### What is the RTTTL?
 RTTTL is Ring Tone Transfer Language, ![Wikipedia](https://en.wikipedia.org/wiki/Ring_Tone_Transfer_Language)
 
-### Communication Protocol
+### Communication Protocol in my project
 
 * **Syntax**
      - **Data transfer:** digital
@@ -88,6 +88,7 @@ RTTTL is Ring Tone Transfer Language, ![Wikipedia](https://en.wikipedia.org/wiki
      keyIndex(System.Int32):<Index>;
 </Unity>
 ```
+(I Referred to html transmission method of HTTP protocol)
 
 ### Blog URL
 Blog in korea !["퍼텐셜의 개발일지"](https://blog.naver.com/wjoh0315)
