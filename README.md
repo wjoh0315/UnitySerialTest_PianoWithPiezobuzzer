@@ -1,6 +1,7 @@
 # UnitySerialTest_PianoWithPiezobuzzer
 Unity-Arduino Serial Communication Test (Piano play with piezo buzzer And RTTTL parsing)
 
+## License
 MIT License
 
 Copyright (c) 2020 wjoh0315
@@ -28,3 +29,30 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Setting
+<img src="https://ifh.cc/g/WlWT3R.jpg" width="450" height="500">
+
+Change the serial port name to the serial port name used by the Arduino board.
+
+**NOTE: It would be better not touch another component setting (Excluding RTTTL file setting)**
+
+## Circuit
+<img src="https://ifh.cc/g/r2sQVL.jpg" width="800" height="500">
+<img src="https://ifh.cc/g/7w52F5.png" width="600" height="500">
+
+## Execution
+* **Arduino IDE**
+
+Upload UnitySerialTest.ino sketch to Arduino board
+
+* **Unity Editor**
+
+Select RTTTL file (Text Asset) in RTTTL folder or create new RTTTL file, apply it to the component setting "RTTTL File" in "PianoWithSerial".
+And, click execution button in unity editor.
+
+Then, It will be working like this.
+
+<img src="https://ifh.cc/g/YPOukF.jpg" width="800" height="500">
+
+Enjoy!
