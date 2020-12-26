@@ -53,6 +53,41 @@ And, click execution button in unity editor.
 
 Then, It will be working like this.
 
-<img src="https://ifh.cc/g/YPOukF.jpg" width="800" height="500">
+<img src="https://ifh.cc/g/YPOukF.jpg" width="820" height="500">
 
 Enjoy!
+
+## Other
+### What is the RTTTL?
+RTTTL is Ring Tone Transfer Language, ![Wikipedia](https://en.wikipedia.org/wiki/Ring_Tone_Transfer_Language)
+
+### Communication Protocol
+
+* **Syntax**
+     - **Data transfer:** digital
+     - **Encoding:** 1 byte (8 bits) ASCII characters (string)
+
+* **Sematics**
+     - **\<Sender>**: identify sender, start reading
+     - **\</Sender>**: Re-identify sender, end reading
+     - **dataName**: data identification
+     - **(Type)**: identify data type
+     - **\<data>**: data to read
+     - **':'**: Start reading data of that name
+     - **';'**: End of reading data of the name
+
+* **Timing:**
+     - **baudrate:** 115200 bps
+     
+* **Example**
+```
+<Unity>
+     name(System.String):<noteName>;
+     frequency(System.Double):<frequency>;
+     time(System.Single):<time>;
+     keyIndex(System.Int32):<Index>;
+</Unity>
+```
+
+### Blog URL
+Blog in korea !["퍼텐셜의 개발일지"](https://blog.naver.com/wjoh0315)
